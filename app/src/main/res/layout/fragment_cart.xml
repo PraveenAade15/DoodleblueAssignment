@@ -171,7 +171,7 @@
         android:layout_marginEnd="8dp"
         android:text="@string/show_more"
         android:textColor="@color/title_color"
-        android:textSize="@dimen/sp_13"
+        android:textSize="15sp"
         android:textStyle="normal"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"

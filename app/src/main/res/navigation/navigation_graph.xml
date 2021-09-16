@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/chooseItemFragment">
+
+    <fragment
+        android:id="@+id/chooseItemFragment"
+        android:name="com.example.doodleblueapp.ChooseItemFragment"
+        android:label="fragment_choose_item"
+        tools:layout="@layout/fragment_choose_item">
+        <action
+            android:id="@+id/action_chooseItemFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.doodleblueapp.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart">
+        <action
+            android:id="@+id/action_cartFragment_to_chooseItemFragment"
+            app:destination="@id/chooseItemFragment" />
+    </fragment>
+</navigation>

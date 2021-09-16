@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DoodleblueApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_inka">Inka Restaurant</string>
+
+    <string name="text_RestaurantDesc">☆ 5 D(200+) | All days : 09:00 AM - 06:00 PM</string>
+
+    <string name="text_RestaurantMobile">Reach us at 9854562142</string>
+
+    <string name="btn_book">Book a table</string>
+
+    <string name="txt_starter">Starter</string>
+
+    <string name="txt_view_cart">VIEW CART ITEMS</string>
+
+    <string name="txt_CartTitle">My Cart</string>
+
+    <string name="txt_total_cost">Total Cost</string>
+
+    <string name="txt_review_order">Review Orders</string>
+
+    <string name="txt_delivery_options">Delivery Options</string>
+
+    <string name="btn_place_order">Place order</string>
+    <string name="N">N</string>
+
+    <string name="D">D</string>
+
+    <string name="show_more">show more</string>
+    <string name="dine_in">Dine-in</string>
+    <string name="take_way">Take Way</string>
+</resources>
